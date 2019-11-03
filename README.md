@@ -11,3 +11,9 @@ Featured
 * Babel 7 polyfill
 * Evergreen UI (by Segment) + UI Box
 * Sass
+
+Wishlist
+----
+
+- [ ] Add a linter, maybe ESlint with Prettier.
+- [ ] Add Unit testing.
