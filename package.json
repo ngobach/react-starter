@@ -1,0 +1,32 @@
+{
+  "name": "react-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngobach/react-starter"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "evergreen-ui": "^4.21.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "ui-box": "^3.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "sass": "^1.23.3"
+  },
+  "scripts": {
+    "start": "parcel serve src/index.pug",
+    "build": "parcel build --no-source-maps src/index.pug",
+    "clean": "rm -rf .cache dist"
+  },
+  "keywords": [],
+  "author": "BachNX <thanbaiks@gmail.com>",
+  "license": "MIT"
+}
